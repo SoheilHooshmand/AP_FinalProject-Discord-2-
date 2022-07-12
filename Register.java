@@ -226,7 +226,7 @@ public class Register implements Serializable , Initializable {
         boolean check = false;
         if (phoneNumber.equals("")) {
             check = true;
-        } else if (phoneNumber.charAt(0) == (char) 0 && phoneNumber.charAt(1) == (char) 9){
+        } else if (phoneNumber.charAt(0) == '0' && phoneNumber.charAt(1) == '9'){
             int counter = 0;
             for (int i = 2; i < 11; i++) {
                 if (phoneNumber.charAt(i) >= 48 && phoneNumber.charAt(i) <= 57) {
