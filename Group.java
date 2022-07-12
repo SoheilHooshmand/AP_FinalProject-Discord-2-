@@ -865,7 +865,7 @@ public class Group {
                 break;
             }
         }
-        if (check = true) {
+        if (check == true) {
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("addUserHandling.fxml"));
                 Parent root = loader.load();
