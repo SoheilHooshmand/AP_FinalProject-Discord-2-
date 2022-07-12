@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="718.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project1.AdduserHandling">
+   <children>
+      <VBox fx:id="vBox" prefHeight="718.0" prefWidth="218.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="41.0" prefWidth="218.0" text="requests">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button fx:id="show" layoutX="218.0" layoutY="2.0" mnemonicParsing="false" onAction="#showAndSend" prefHeight="33.0" prefWidth="107.0" text="show friends" />
+      <Button fx:id="back" layoutX="535.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="65.0" text="back" />
+   </children>
+</AnchorPane>

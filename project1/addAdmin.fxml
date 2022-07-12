@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="531.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project1.AddAdmin">
+   <children>
+      <TextField fx:id="textField" layoutX="83.0" layoutY="108.0" onAction="#recieveNewAdminName" onKeyTyped="#recieveNewAdminName" prefHeight="25.0" prefWidth="411.0" promptText="enter new admin user name here" />
+      <Button fx:id="button" layoutX="255.0" layoutY="249.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="68.0" text="add" />
+      <Label fx:id="label" layoutX="126.0" layoutY="364.0" prefHeight="25.0" prefWidth="382.0" />
+      <Button fx:id="button1" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="77.0" text="back" />
+      <Label alignment="CENTER" layoutY="156.0" prefHeight="17.0" prefWidth="108.0" text="roles" />
+      <Button fx:id="addUSerRolle" layoutX="23.0" layoutY="190.0" mnemonicParsing="false" onAction="#addUsersetting" prefHeight="25.0" prefWidth="101.0" text="add user" />
+      <Button fx:id="bockUserRolle" layoutX="21.0" layoutY="237.0" mnemonicParsing="false" onAction="#bolockUserSetting" prefHeight="25.0" prefWidth="101.0" text="block user" />
+      <Button fx:id="createChannalRolle" layoutX="23.0" layoutY="288.0" mnemonicParsing="false" onAction="#createChannalSetting" prefHeight="25.0" prefWidth="101.0" text="create channal" />
+      <Button fx:id="reNameChannalRolle" layoutX="21.0" layoutY="339.0" mnemonicParsing="false" onAction="#deleteChannalSetting" text="remove channal" />
+      <Button fx:id="reNameGroupRolle" layoutX="25.0" layoutY="389.0" mnemonicParsing="false" onAction="#reNameGroupSetting" prefHeight="25.0" prefWidth="101.0" text="rename group" />
+      <Button fx:id="removeChannlRolle" layoutX="25.0" layoutY="433.0" mnemonicParsing="false" onAction="#reNameChannalSetting" text="rename channal" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="689.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project1.ShowBlockList">
+   <children>
+      <VBox fx:id="vBox" prefHeight="689.0" prefWidth="183.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="47.0" prefWidth="183.0" text="block users">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button fx:id="show" layoutX="183.0" layoutY="6.0" mnemonicParsing="false" onAction="#show" prefHeight="31.0" prefWidth="71.0" text="show" />
+      <Button fx:id="back" layoutX="529.0" layoutY="2.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="71.0" text="back" />
+   </children>
+</AnchorPane>
