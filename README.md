@@ -6,6 +6,8 @@
 * chat in groups
 * chat in pv
 * send file
+* save history of the chats
+* save profiles ,groups, channels
 
 # Overview
 * oop
